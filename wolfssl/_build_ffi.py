@@ -152,7 +152,7 @@ def make_flags(prefix, debug):
     flags.append("--prefix={}".format(prefix))
 
     # aesccm support
-    flags.append("--aesccm")
+    flags.append("--enable-aesccm")
     
     # lib only
     flags.append("--disable-shared")
