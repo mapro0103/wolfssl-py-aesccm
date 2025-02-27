@@ -151,6 +151,9 @@ def make_flags(prefix, debug):
     # install location
     flags.append("--prefix={}".format(prefix))
 
+    # aesccm support
+    flags.append("--aesccm")
+    
     # lib only
     flags.append("--disable-shared")
     flags.append("--disable-examples")
